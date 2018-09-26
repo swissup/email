@@ -1,6 +1,6 @@
 # Email
 
-Magento2 module for email providers integration.
+Magento2 module for smtp email providers integration.
 
 <sub>It's a metapackage for the [original repository](https://github.com/swissup/module-email).</sub>
 
