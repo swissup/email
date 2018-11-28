@@ -1,6 +1,6 @@
 # Email
 
-Magento2 module for smtp email providers integration.
+Magento2 module for smtp email integration and email logging
 
 <sub>It's a metapackage for the [original repository](https://github.com/swissup/module-email).</sub>
 
@@ -26,7 +26,7 @@ bin/magento setup:upgrade
 bin/magento setup:di:compile
 ```
 
-### Usage
+### Configuration and Usage
 
  1. Navigate to "Marketing → Communications → Email Services"
  ![example1](https://user-images.githubusercontent.com/412612/40238984-6f0b1262-5abd-11e8-89af-8de7a6a93fa7.png)
@@ -42,3 +42,9 @@ bin/magento setup:di:compile
  5. Select new service in the "Default Transport Email Service" drop-down
  ![config](https://user-images.githubusercontent.com/412612/40239232-2b0aaf5e-5abe-11e8-94c5-b96862d7ccc9.png)
  6. Save
+ 
+ ### Logging
+
+ 1. Navigate "Stores → Configurations → Advanced → System → Mail Sending Settings"
+ 2. "Logging Enable" set Yes
+ 3. Navigate to "Marketing → Communications → Email Logs"
