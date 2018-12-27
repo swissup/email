@@ -10,7 +10,7 @@
         "sendmail"
     ],
     "type": "metapackage",
-    "version": "0.2.1",
+    "version": "0.2.3",
     "license": "OSL-3.0",
     "require": {
         "swissup/module-email": "^0.2.0"
